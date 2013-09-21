@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95DB351117E60A85006E6E6C /* 侧边栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DB350E17E60A85006E6E6C /* 侧边栏.png */; };
+		95DB351217E60A85006E6E6C /* 删除城市.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DB350F17E60A85006E6E6C /* 删除城市.png */; };
+		95DB351317E60A85006E6E6C /* 添加城市.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DB351017E60A85006E6E6C /* 添加城市.png */; };
+		95DB351717E6125B006E6E6C /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB351517E6125B006E6E6C /* addViewController.m */; };
+		95DB351817E6125B006E6E6C /* addViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95DB351617E6125B006E6E6C /* addViewController.xib */; };
 		CBBBB4CB17DF2AA000331722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBBB4CA17DF2AA000331722 /* UIKit.framework */; };
 		CBBBB4CD17DF2AA000331722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBBB4CC17DF2AA000331722 /* Foundation.framework */; };
 		CBBBB4CF17DF2AA000331722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBBB4CE17DF2AA000331722 /* CoreGraphics.framework */; };
@@ -16,9 +21,23 @@
 		CBBBB4DD17DF2AA000331722 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBBB4DC17DF2AA000331722 /* Default.png */; };
 		CBBBB4DF17DF2AA000331722 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBBB4DE17DF2AA000331722 /* Default@2x.png */; };
 		CBBBB4E117DF2AA000331722 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBBB4E017DF2AA000331722 /* Default-568h@2x.png */; };
+		CBBBB4E917DF2B2200331722 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBBB4E717DF2B0000331722 /* QuartzCore.framework */; };
+		CBBBB4F117DF2B6E00331722 /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBBB4EC17DF2B6E00331722 /* IISideController.m */; };
+		CBBBB4F217DF2B6E00331722 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBBB4EE17DF2B6E00331722 /* IIViewDeckController.m */; };
+		CBBBB4F317DF2B6E00331722 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBBB4F017DF2B6E00331722 /* IIWrapController.m */; };
+		CBF23B6417DF4036005D05ED /* centerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF23B6217DF4036005D05ED /* centerViewController.m */; };
+		CBF23B6517DF4036005D05ED /* centerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF23B6317DF4036005D05ED /* centerViewController.xib */; };
+		CBF23B7117DF5416005D05ED /* leftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF23B6F17DF5416005D05ED /* leftViewController.m */; };
+		CBF23B7217DF5416005D05ED /* leftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF23B7017DF5416005D05ED /* leftViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95DB350E17E60A85006E6E6C /* 侧边栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏.png"; sourceTree = SOURCE_ROOT; };
+		95DB350F17E60A85006E6E6C /* 删除城市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除城市.png"; sourceTree = SOURCE_ROOT; };
+		95DB351017E60A85006E6E6C /* 添加城市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加城市.png"; sourceTree = SOURCE_ROOT; };
+		95DB351417E6125B006E6E6C /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		95DB351517E6125B006E6E6C /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
+		95DB351617E6125B006E6E6C /* addViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addViewController.xib; sourceTree = "<group>"; };
 		CBBBB4C617DF2AA000331722 /* testSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBBB4CA17DF2AA000331722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBBBB4CC17DF2AA000331722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +51,19 @@
 		CBBBB4DC17DF2AA000331722 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CBBBB4DE17DF2AA000331722 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CBBBB4E017DF2AA000331722 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBBBB4E717DF2B0000331722 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CBBBB4EB17DF2B6E00331722 /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
+		CBBBB4EC17DF2B6E00331722 /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
+		CBBBB4ED17DF2B6E00331722 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		CBBBB4EE17DF2B6E00331722 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		CBBBB4EF17DF2B6E00331722 /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
+		CBBBB4F017DF2B6E00331722 /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
+		CBF23B6117DF4036005D05ED /* centerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = centerViewController.h; path = ../centerViewController.h; sourceTree = "<group>"; };
+		CBF23B6217DF4036005D05ED /* centerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = centerViewController.m; path = ../centerViewController.m; sourceTree = "<group>"; };
+		CBF23B6317DF4036005D05ED /* centerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = centerViewController.xib; path = ../centerViewController.xib; sourceTree = "<group>"; };
+		CBF23B6E17DF5416005D05ED /* leftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = leftViewController.h; path = ../leftViewController.h; sourceTree = "<group>"; };
+		CBF23B6F17DF5416005D05ED /* leftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = leftViewController.m; path = ../leftViewController.m; sourceTree = "<group>"; };
+		CBF23B7017DF5416005D05ED /* leftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = leftViewController.xib; path = ../leftViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBBB4E917DF2B2200331722 /* QuartzCore.framework in Frameworks */,
 				CBBBB4CB17DF2AA000331722 /* UIKit.framework in Frameworks */,
 				CBBBB4CD17DF2AA000331722 /* Foundation.framework in Frameworks */,
 				CBBBB4CF17DF2AA000331722 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +101,7 @@
 		CBBBB4C917DF2AA000331722 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBBBB4E717DF2B0000331722 /* QuartzCore.framework */,
 				CBBBB4CA17DF2AA000331722 /* UIKit.framework */,
 				CBBBB4CC17DF2AA000331722 /* Foundation.framework */,
 				CBBBB4CE17DF2AA000331722 /* CoreGraphics.framework */,
@@ -78,8 +112,21 @@
 		CBBBB4D017DF2AA000331722 /* testSlideView */ = {
 			isa = PBXGroup;
 			children = (
+				95DB350E17E60A85006E6E6C /* 侧边栏.png */,
+				95DB350F17E60A85006E6E6C /* 删除城市.png */,
+				95DB351017E60A85006E6E6C /* 添加城市.png */,
+				CBBBB4EA17DF2B6E00331722 /* ViewDeck */,
 				CBBBB4D917DF2AA000331722 /* AppDelegate.h */,
 				CBBBB4DA17DF2AA000331722 /* AppDelegate.m */,
+				CBF23B6E17DF5416005D05ED /* leftViewController.h */,
+				CBF23B6F17DF5416005D05ED /* leftViewController.m */,
+				CBF23B7017DF5416005D05ED /* leftViewController.xib */,
+				CBF23B6117DF4036005D05ED /* centerViewController.h */,
+				CBF23B6217DF4036005D05ED /* centerViewController.m */,
+				CBF23B6317DF4036005D05ED /* centerViewController.xib */,
+				95DB351417E6125B006E6E6C /* addViewController.h */,
+				95DB351517E6125B006E6E6C /* addViewController.m */,
+				95DB351617E6125B006E6E6C /* addViewController.xib */,
 				CBBBB4D117DF2AA000331722 /* Supporting Files */,
 			);
 			path = testSlideView;
@@ -97,6 +144,20 @@
 				CBBBB4E017DF2AA000331722 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBBBB4EA17DF2B6E00331722 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				CBBBB4EB17DF2B6E00331722 /* IISideController.h */,
+				CBBBB4EC17DF2B6E00331722 /* IISideController.m */,
+				CBBBB4ED17DF2B6E00331722 /* IIViewDeckController.h */,
+				CBBBB4EE17DF2B6E00331722 /* IIViewDeckController.m */,
+				CBBBB4EF17DF2B6E00331722 /* IIWrapController.h */,
+				CBBBB4F017DF2B6E00331722 /* IIWrapController.m */,
+			);
+			name = ViewDeck;
+			path = ../ViewDeck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +215,12 @@
 				CBBBB4DD17DF2AA000331722 /* Default.png in Resources */,
 				CBBBB4DF17DF2AA000331722 /* Default@2x.png in Resources */,
 				CBBBB4E117DF2AA000331722 /* Default-568h@2x.png in Resources */,
+				CBF23B6517DF4036005D05ED /* centerViewController.xib in Resources */,
+				CBF23B7217DF5416005D05ED /* leftViewController.xib in Resources */,
+				95DB351117E60A85006E6E6C /* 侧边栏.png in Resources */,
+				95DB351217E60A85006E6E6C /* 删除城市.png in Resources */,
+				95DB351317E60A85006E6E6C /* 添加城市.png in Resources */,
+				95DB351817E6125B006E6E6C /* addViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +233,12 @@
 			files = (
 				CBBBB4D717DF2AA000331722 /* main.m in Sources */,
 				CBBBB4DB17DF2AA000331722 /* AppDelegate.m in Sources */,
+				CBBBB4F117DF2B6E00331722 /* IISideController.m in Sources */,
+				CBBBB4F217DF2B6E00331722 /* IIViewDeckController.m in Sources */,
+				CBBBB4F317DF2B6E00331722 /* IIWrapController.m in Sources */,
+				CBF23B6417DF4036005D05ED /* centerViewController.m in Sources */,
+				CBF23B7117DF5416005D05ED /* leftViewController.m in Sources */,
+				95DB351717E6125B006E6E6C /* addViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +346,7 @@
 				CBBBB4E617DF2AA000331722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IIViewDeckController.h"
+#import "leftViewController.h"
+#import "centerViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    leftViewController *leftViewCtrl;
+    centerViewController *centerViewCtrl;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

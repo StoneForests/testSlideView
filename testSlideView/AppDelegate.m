@@ -15,6 +15,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+  
+    leftViewCtrl = [[leftViewController alloc] initWithNibName:nil bundle:nil];
+    centerViewCtrl = [[centerViewController alloc] initWithNibName:nil bundle:nil];
+    IIViewDeckController *iiViewDeckCtrl = [[IIViewDeckController alloc] initWithCenterViewController:centerViewCtrl leftViewController:leftViewCtrl];
+//    [iiViewDeckCtrl removePannersByself];
+
+    iiViewDeckCtrl.shadowEnabled = NO;
+    iiViewDeckCtrl.leftSize = 50;
+
+    self.window.rootViewController = iiViewDeckCtrl;
+
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
